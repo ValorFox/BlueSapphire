@@ -118,7 +118,7 @@ function PostForm() {
                   required={true}
                   onValueChange={(value) => setValue("Category", value)}
                 >
-                  <SelectTrigger className="lg:w-[95%] w-full lg:ml-9 bg-[#1e1e1e]">
+                  <SelectTrigger className="lg:w-[95%] w-full lg:ml-9 bg-[#1e1e1e] mb-4 lg:mb-0">
                     <SelectValue placeholder="Select Post Category " />
                   </SelectTrigger>
                   <SelectContent className="bg-black/50">
