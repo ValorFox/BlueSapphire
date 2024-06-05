@@ -208,7 +208,7 @@ function Header() {
                     </li>
                   )
               )}
-              {authStatus && <Logout className="text-xl" />}
+              {authStatus.status && <Logout className="text-xl"/>}
             </ul>
           </div>
         ) : null}
